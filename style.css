@@ -24,7 +24,6 @@ body {
     justify-content: space-between;
     margin-bottom: 100px;
     
-    
 }
 
 a {
@@ -117,12 +116,57 @@ a {
     justify-content: flex-end;
     font-size: 30px;
     text-align: right;
+    font-weight: 800;
 }
 .quote-text {
+    font-family: sans-serif;
     padding: 150px;
     font-size: 36px;
-    font-weight: 200;
+    font-weight: 100;
     color: #1F2937;
     text-align: center;
+}
 
+.footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    font-size: 18px;
+    height: 60px;
+    text-align: center;
+    padding-top: 33px;
+}
+
+.action-container {
+    display: flex;
+    background-color: #3882F6;
+    color: #E5E7EB;
+    align-self: center;
+    margin: 100px;
+    height: 100px;
+    padding: 50px;
+    border-radius: 30px;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.action-header {
+    color: #F9FAF8;
+    font-weight: 800;
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+
+.action-button {
+    margin-left: 40px;
+    border-color: #F9FAF8;
+    border-radius: 10px;
+    color: #F9FAF8;
+    background-color: #3882F6;
+    border-style: solid;
+    font-size: 20px;
+    padding: 10px;
+}
+.action-button:hover,
+.sign-button:hover {
+    background-color: #1f4583;
 }
