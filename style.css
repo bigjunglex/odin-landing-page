@@ -15,6 +15,7 @@ body {
     padding: 140px;
     padding-top: 10px;
     justify-content: center;
+    height: 300px;
     
 
 }
@@ -103,4 +104,25 @@ a {
     text-align: center;
     margin: 50px;
     margin-top: 20px;
+}
+.quote-container {
+    display: inline-flex;
+    background-color: #E5E7EB;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+.quote-author {
+    display: inline-flex;
+    justify-content: flex-end;
+    font-size: 30px;
+    text-align: right;
+}
+.quote-text {
+    padding: 150px;
+    font-size: 36px;
+    font-weight: 200;
+    color: #1F2937;
+    text-align: center;
+
 }
